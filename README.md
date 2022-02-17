@@ -21,3 +21,7 @@ make exec
 
 基本的にworkspaceディレクトリ内にファイルを配置していく
 	
+## Docker install (Windows)
+
+https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe
+
