@@ -1,9 +1,9 @@
-FROM continuumio/anaconda3:2019.10
+FROM continuumio/anaconda3:latest
 
 RUN pip install --upgrade pip && \
+    conda install python=3.9 && \
     pip install autopep8 && \
-    pip install Keras && \
-    pip install tensorflow 
+    pip install Keras
 
 WORKDIR /workdir
 
